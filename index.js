@@ -47,7 +47,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     // });
 
     const targetElement = document.querySelector(this.getAttribute("href"));
-    const offset = 120; // Adjust this value as needed
+    const offset = 150; // Adjust this value as needed
     const elementPosition = targetElement.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - offset;
 
